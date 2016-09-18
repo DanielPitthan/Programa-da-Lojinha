@@ -1,4 +1,5 @@
-﻿-- Criação da Tabela de Pedidos e itens do Pedido 
+﻿18/09/2016
+-- Criação da Tabela de Pedidos e itens do Pedido 
 
 create table PV_HEADER(
 Id int not null identity primary key,
