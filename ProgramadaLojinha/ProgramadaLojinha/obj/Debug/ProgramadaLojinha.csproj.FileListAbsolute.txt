@@ -1,0 +1,46 @@
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.exe
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.Properties.Resources.resources
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.csproj.GenerateResource.Cache
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.exe
+c:\users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.pdb
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmLojinha.resources
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmHome.resources
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.exe.manifest
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.application
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.exe.manifest
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.application
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.exe.config
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.exe
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.pdb
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.csprojResolveAssemblyReference.cache
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmLojinha.resources
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.Properties.Resources.resources
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmHome.resources
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.csproj.GenerateResource.Cache
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.exe.manifest
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.application
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.exe
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\ProgramadaLojinha.pdb
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.exe.manifest
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.application
+D:\Projeto C#\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmConfigConnection.resources
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmConfigConnection.resources
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\RdlCompile.cache
+C:\Users\daniel\Documents\Visual Studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\RdlCompile.compiled
+C:\Users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmUltimoPedidoLojinha.resources
+C:\Users\daniel\documents\visual studio 2015\Projects\ProgramadaLojinha\ProgramadaLojinha\obj\Debug\ProgramadaLojinha.FrmImprimePedido.resources

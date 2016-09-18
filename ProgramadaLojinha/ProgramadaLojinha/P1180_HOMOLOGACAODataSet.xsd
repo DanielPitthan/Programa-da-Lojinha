@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="P1180_HOMOLOGACAODataSet" targetNamespace="http://tempuri.org/P1180_HOMOLOGACAODataSet.xsd" xmlns:mstns="http://tempuri.org/P1180_HOMOLOGACAODataSet.xsd" xmlns="http://tempuri.org/P1180_HOMOLOGACAODataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="P1180_HOMOLOGACAOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="P1180_HOMOLOGACAOConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ProgramadaLojinha.Properties.Settings.GlobalReference.Default.P1180_HOMOLOGACAOConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_PedidoTableAdapter" GeneratorDataComponentClassName="vw_PedidoTableAdapter" Name="vw_Pedido" UserDataComponentName="vw_PedidoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="P1180_HOMOLOGACAOConnectionString (Settings)" DbObjectName="P1180_HOMOLOGACAO.dbo.vw_Pedido" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, Idpv, CodProduto, Descricao, Quantidade, PrecoUnitario, Total, Empresa, Matricula, IdTotvs, DataInclusao, Integrado FROM dbo.vw_Pedido</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Idpv" DataSetColumn="Idpv" />
+              <Mapping SourceColumn="CodProduto" DataSetColumn="CodProduto" />
+              <Mapping SourceColumn="Descricao" DataSetColumn="Descricao" />
+              <Mapping SourceColumn="Quantidade" DataSetColumn="Quantidade" />
+              <Mapping SourceColumn="PrecoUnitario" DataSetColumn="PrecoUnitario" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Empresa" DataSetColumn="Empresa" />
+              <Mapping SourceColumn="Matricula" DataSetColumn="Matricula" />
+              <Mapping SourceColumn="IdTotvs" DataSetColumn="IdTotvs" />
+              <Mapping SourceColumn="DataInclusao" DataSetColumn="DataInclusao" />
+              <Mapping SourceColumn="Integrado" DataSetColumn="Integrado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_ultimoPedidoTableAdapter" GeneratorDataComponentClassName="vw_ultimoPedidoTableAdapter" Name="vw_ultimoPedido" UserDataComponentName="vw_ultimoPedidoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="P1180_HOMOLOGACAOConnectionString (Settings)" DbObjectName="P1180_HOMOLOGACAO.dbo.vw_ultimoPedido" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, Idpv, CodProduto, Descricao, Quantidade, PrecoUnitario, Total, Empresa, Matricula, IdTotvs, DataInclusao, Integrado, NomeFunc, empresaTotvs FROM dbo.vw_ultimoPedido</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Idpv" DataSetColumn="Idpv" />
+              <Mapping SourceColumn="CodProduto" DataSetColumn="CodProduto" />
+              <Mapping SourceColumn="Descricao" DataSetColumn="Descricao" />
+              <Mapping SourceColumn="Quantidade" DataSetColumn="Quantidade" />
+              <Mapping SourceColumn="PrecoUnitario" DataSetColumn="PrecoUnitario" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Empresa" DataSetColumn="Empresa" />
+              <Mapping SourceColumn="Matricula" DataSetColumn="Matricula" />
+              <Mapping SourceColumn="IdTotvs" DataSetColumn="IdTotvs" />
+              <Mapping SourceColumn="DataInclusao" DataSetColumn="DataInclusao" />
+              <Mapping SourceColumn="Integrado" DataSetColumn="Integrado" />
+              <Mapping SourceColumn="NomeFunc" DataSetColumn="NomeFunc" />
+              <Mapping SourceColumn="empresaTotvs" DataSetColumn="empresaTotvs" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="P1180_HOMOLOGACAODataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="P1180_HOMOLOGACAODataSet" msprop:Generator_UserDSName="P1180_HOMOLOGACAODataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_Pedido" msprop:Generator_TableClassName="vw_PedidoDataTable" msprop:Generator_TableVarName="tablevw_Pedido" msprop:Generator_TablePropName="vw_Pedido" msprop:Generator_RowDeletingName="vw_PedidoRowDeleting" msprop:Generator_RowChangingName="vw_PedidoRowChanging" msprop:Generator_RowEvHandlerName="vw_PedidoRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_PedidoRowDeleted" msprop:Generator_UserTableName="vw_Pedido" msprop:Generator_RowChangedName="vw_PedidoRowChanged" msprop:Generator_RowEvArgName="vw_PedidoRowChangeEvent" msprop:Generator_RowClassName="vw_PedidoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Idpv" msprop:Generator_ColumnVarNameInTable="columnIdpv" msprop:Generator_ColumnPropNameInRow="Idpv" msprop:Generator_ColumnPropNameInTable="IdpvColumn" msprop:Generator_UserColumnName="Idpv" type="xs:int" />
+              <xs:element name="CodProduto" msprop:Generator_ColumnVarNameInTable="columnCodProduto" msprop:Generator_ColumnPropNameInRow="CodProduto" msprop:Generator_ColumnPropNameInTable="CodProdutoColumn" msprop:Generator_UserColumnName="CodProduto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantidade" msprop:Generator_ColumnVarNameInTable="columnQuantidade" msprop:Generator_ColumnPropNameInRow="Quantidade" msprop:Generator_ColumnPropNameInTable="QuantidadeColumn" msprop:Generator_UserColumnName="Quantidade" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrecoUnitario" msprop:Generator_ColumnVarNameInTable="columnPrecoUnitario" msprop:Generator_ColumnPropNameInRow="PrecoUnitario" msprop:Generator_ColumnPropNameInTable="PrecoUnitarioColumn" msprop:Generator_UserColumnName="PrecoUnitario" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Empresa" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Matricula" msprop:Generator_ColumnVarNameInTable="columnMatricula" msprop:Generator_ColumnPropNameInRow="Matricula" msprop:Generator_ColumnPropNameInTable="MatriculaColumn" msprop:Generator_UserColumnName="Matricula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdTotvs" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIdTotvs" msprop:Generator_ColumnPropNameInRow="IdTotvs" msprop:Generator_ColumnPropNameInTable="IdTotvsColumn" msprop:Generator_UserColumnName="IdTotvs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataInclusao" msprop:Generator_ColumnVarNameInTable="columnDataInclusao" msprop:Generator_ColumnPropNameInRow="DataInclusao" msprop:Generator_ColumnPropNameInTable="DataInclusaoColumn" msprop:Generator_UserColumnName="DataInclusao" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Integrado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIntegrado" msprop:Generator_ColumnPropNameInRow="Integrado" msprop:Generator_ColumnPropNameInTable="IntegradoColumn" msprop:Generator_UserColumnName="Integrado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vw_ultimoPedido" msprop:Generator_TableClassName="vw_ultimoPedidoDataTable" msprop:Generator_TableVarName="tablevw_ultimoPedido" msprop:Generator_TablePropName="vw_ultimoPedido" msprop:Generator_RowDeletingName="vw_ultimoPedidoRowDeleting" msprop:Generator_RowChangingName="vw_ultimoPedidoRowChanging" msprop:Generator_RowEvHandlerName="vw_ultimoPedidoRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_ultimoPedidoRowDeleted" msprop:Generator_UserTableName="vw_ultimoPedido" msprop:Generator_RowChangedName="vw_ultimoPedidoRowChanged" msprop:Generator_RowEvArgName="vw_ultimoPedidoRowChangeEvent" msprop:Generator_RowClassName="vw_ultimoPedidoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Idpv" msprop:Generator_ColumnVarNameInTable="columnIdpv" msprop:Generator_ColumnPropNameInRow="Idpv" msprop:Generator_ColumnPropNameInTable="IdpvColumn" msprop:Generator_UserColumnName="Idpv" type="xs:int" />
+              <xs:element name="CodProduto" msprop:Generator_ColumnVarNameInTable="columnCodProduto" msprop:Generator_ColumnPropNameInRow="CodProduto" msprop:Generator_ColumnPropNameInTable="CodProdutoColumn" msprop:Generator_UserColumnName="CodProduto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Quantidade" msprop:Generator_ColumnVarNameInTable="columnQuantidade" msprop:Generator_ColumnPropNameInRow="Quantidade" msprop:Generator_ColumnPropNameInTable="QuantidadeColumn" msprop:Generator_UserColumnName="Quantidade" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrecoUnitario" msprop:Generator_ColumnVarNameInTable="columnPrecoUnitario" msprop:Generator_ColumnPropNameInRow="PrecoUnitario" msprop:Generator_ColumnPropNameInTable="PrecoUnitarioColumn" msprop:Generator_UserColumnName="PrecoUnitario" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Empresa" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Matricula" msprop:Generator_ColumnVarNameInTable="columnMatricula" msprop:Generator_ColumnPropNameInRow="Matricula" msprop:Generator_ColumnPropNameInTable="MatriculaColumn" msprop:Generator_UserColumnName="Matricula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdTotvs" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIdTotvs" msprop:Generator_ColumnPropNameInRow="IdTotvs" msprop:Generator_ColumnPropNameInTable="IdTotvsColumn" msprop:Generator_UserColumnName="IdTotvs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataInclusao" msprop:Generator_ColumnVarNameInTable="columnDataInclusao" msprop:Generator_ColumnPropNameInRow="DataInclusao" msprop:Generator_ColumnPropNameInTable="DataInclusaoColumn" msprop:Generator_UserColumnName="DataInclusao" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Integrado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIntegrado" msprop:Generator_ColumnPropNameInRow="Integrado" msprop:Generator_ColumnPropNameInTable="IntegradoColumn" msprop:Generator_UserColumnName="Integrado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NomeFunc" msprop:Generator_ColumnVarNameInTable="columnNomeFunc" msprop:Generator_ColumnPropNameInRow="NomeFunc" msprop:Generator_ColumnPropNameInTable="NomeFuncColumn" msprop:Generator_UserColumnName="NomeFunc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="empresaTotvs" msprop:Generator_ColumnVarNameInTable="columnempresaTotvs" msprop:Generator_ColumnPropNameInRow="empresaTotvs" msprop:Generator_ColumnPropNameInTable="empresaTotvsColumn" msprop:Generator_UserColumnName="empresaTotvs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_Pedido" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="vw_ultimoPedido_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_ultimoPedido" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

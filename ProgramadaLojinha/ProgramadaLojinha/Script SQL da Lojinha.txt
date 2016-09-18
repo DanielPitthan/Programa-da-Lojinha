@@ -1,0 +1,41 @@
+﻿-- Criação da Tabela de Pedidos e itens do Pedido 
+
+create table PV_HEADER(
+Id int not null identity primary key,
+Matricula varchar(06) not null,
+Empresa int not null,
+IdTotvs varchar(06)
+)
+go
+create index IX_PV_HEADER0100 on PV_HEADER (Empresa,Matricula)
+
+--Cria os detalhes 
+go
+create table PV_DETAIL (
+Id int not null identity,
+Idpv int not null,
+CodProduto varchar(15),
+Descricao varchar(40),
+Quantidade Decimal(10,2),
+PrecoUnitario decimal(10,2),
+Total decimal(10,2),
+primary key (Id),
+FOREIGN KEY (Idpv)  references PV_HEADER(Id)
+
+)
+go
+create index IX_PV_DETAIL0100 on PV_DETAIL (Idpv,CodProduto)
+GO
+
+alter table PV_HEADER ADD IdTotvs varchar(06)
+GO
+alter table PV_HEADER ADD DataInclusao datetime default getdate()
+go
+alter table PV_HEADER add constraint df_IdTotvs default ('') for IdTotvs
+
+
+
+
+            rptPedido.LocalReport.SetParameters(new ReportParameter("Pedido", "1"));
+            // TODO: This line of code loads data into the 'P1180_HOMOLOGACAODataSet.vw_Pedido' table. You can move, or remove it, as needed.
+            P1180_HOMOLOGACAODataSet.EnforceConstraints = false;
